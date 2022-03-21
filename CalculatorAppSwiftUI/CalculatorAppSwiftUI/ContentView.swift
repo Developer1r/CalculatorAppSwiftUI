@@ -20,7 +20,7 @@ struct ContentView: View {
             TextField("0", text: $calculatorText)
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-
+            
             HStack {
                 btnOperandTapped("+")
                     .padding()
@@ -146,13 +146,10 @@ struct ContentView: View {
         isTypingNumber = false
         calculatorText = "0"
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
-    
     static var previews: some View {
         ContentView()
     }
-    
 }
