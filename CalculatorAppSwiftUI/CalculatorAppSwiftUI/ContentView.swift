@@ -125,7 +125,7 @@ struct ContentView: View {
     
     private func calculate() {
         isTypingNumber = false
-        var result  = 0.0
+        var result = 0.0
         secondNumber = Double(calculatorText)!
         
         if operand == "+" {
